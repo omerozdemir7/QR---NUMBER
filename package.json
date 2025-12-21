@@ -4,18 +4,16 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist",
-
-  "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-  "preview": "vite preview",
-
-  "update": "npm run deploy && git add -A && (git commit -m \"Otomatik guncelleme\" || echo \"Commit yok (degisiklik bulunamadi)\") && git push"
-}
-,
+    "dev": "vite",
+    "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "update": "npm run deploy && git add -A && (git commit -m \"Otomatik guncelleme\" || echo \"Commit yok (degisiklik bulunamadi)\") && git push"
+  },
   "dependencies": {
+    "firebase": "^12.7.0",
     "lucide-react": "^0.344.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
