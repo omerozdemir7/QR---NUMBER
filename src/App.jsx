@@ -7,21 +7,21 @@ const contacts = [
     id: 2,
     name: 'ömer',
     
-    phone: '05551234567',
+    phone: '05453995105',
     color: '#3b82f6' 
   },
   {
     id: 3,
     name: 'Emre',
     
-    phone: '05329876543',
+    phone: '05452145704',
     color: '#10b981' 
   },
   {
     id: 4,
     name: 'Cemal',
    
-    phone: '05051112233',
+    phone: '05378256265',
     color: '#8b5cf6'
   }
 ];
