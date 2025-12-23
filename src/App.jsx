@@ -5,10 +5,10 @@ import { ref, onValue, set, serverTimestamp } from "firebase/database";
 import { onAuthStateChanged, signInWithEmailAndPassword, signOut } from "firebase/auth";
 
 const contacts = [
-  { id: 2, name: "ömer", phone: "000000000", color: "#3b82f6" },
-  { id: 3, name: "Emre", phone: "000000000", color: "#10b981" },
-  { id: 4, name: "Cemal", phone: "000000000", color: "#8b5cf6" },
-  { id: 5, name: "Emin", phone: "000000000", color: "#e01324ff" }
+  { id: 2, name: "Abdullah ÖCALAN", phone: "000000000", color: "#3b82f6" },
+  { id: 3, name: "Devlet BAHÇELİ", phone: "000000000", color: "#10b981" },
+  { id: 4, name: "RTE", phone: "000000000", color: "#8b5cf6" },
+  { id: 5, name: "Cristiano Messi", phone: "000000000", color: "#e01324ff" }
 ];
 
 export default function App() {
