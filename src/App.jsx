@@ -5,10 +5,10 @@ import { ref, onValue, set, serverTimestamp } from "firebase/database";
 import { onAuthStateChanged, signInWithEmailAndPassword, signOut } from "firebase/auth";
 
 const contacts = [
-  { id: 2, name: "Abdullah ÖCALAN", phone: "000000000", color: "#3b82f6" },
-  { id: 3, name: "Devlet BAHÇELİ", phone: "000000000", color: "#10b981" },
-  { id: 4, name: "RTE", phone: "000000000", color: "#8b5cf6" },
-  { id: 5, name: "Cristiano Messi", phone: "000000000", color: "#e01324ff" }
+  { id: 2, name: "Ömer", phone: "05453995105", color: "#3b82f6" },
+  { id: 3, name: "Emre", phone: "05452145704", color: "#10b981" },
+  { id: 4, name: "Emin", phone: "05378256265", color: "#8b5cf6" },
+  { id: 5, name: "Cemal", phone: "05520261256", color: "#e01324ff" }
 ];
 
 export default function App() {
@@ -143,6 +143,11 @@ export default function App() {
           );
         })}
       </main>
+
+      <footer style={styles.footer}>
+        <p>2025</p>
+        <p>Ömer Özdemir tarafından geliştirilmiştir</p>
+      </footer>
     </div>
   );
 }
@@ -191,5 +196,9 @@ const styles = {
   button: { 
     display: "flex", alignItems: "center", gap: "8px", color: "white", 
     padding: "0.75rem 1.5rem", borderRadius: "12px", textDecoration: "none", fontWeight: "700" 
+  },
+  footer: { 
+    marginTop: "2rem", textAlign: "center", color: "#9ca3af", 
+    fontSize: "0.8rem", display: "flex", flexDirection: "column", gap: "4px" 
   }
 };
